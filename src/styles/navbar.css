@@ -1,10 +1,13 @@
 .navbar {
     background-color: white;
-    padding: 20px;
+    height: 80px;
+    padding: 10px;
+    
 }
 
 .logo {
-    height: 80px;;
+    height: 60px;
+    float: left;
 }
 
 .navbar-links {
@@ -12,8 +15,30 @@
     padding: 0;
 }
 
-.navbar-links-item {
+ul {
+    list-style-type: none;
     margin: 0;
-    padding: 10px;
-    display: inline-block;
+    padding: 0;
+    display: inline;
+    overflow: hidden;
+    display: flex;   
+    justify-content: flex-end; 
 }
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #BD9561;
+    color: white;
+}
+
+/* Colours
+#BCCCCD - dusky blue 
+#283442 - dark blue paragraphs
+#32586D - blue whale - accent
+#BD9561 - dune - accent */

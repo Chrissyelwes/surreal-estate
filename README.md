@@ -13,3 +13,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * HTTP Requests
 * API Interaction
 * OAuth
+
+# ROADMAP
+* Add reset button
+* Do own logo

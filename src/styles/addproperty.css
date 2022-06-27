@@ -1,0 +1,50 @@
+.add-property {
+    padding: 20px;
+    margin: 10px;
+}
+
+.button {
+    margin: 20px 10px 10px 0px;
+    border: 2px solid #BD9561;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    padding: 12px 28px;
+    text-align: center;
+    color: #283442;
+    background-color: white;
+    transition-duration: 0.4s;
+    font-size: 1em;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+  
+.button:hover  {
+    background-color: #BD9561;
+    color: white;
+}
+
+.input {
+    margin: 20px 10px 20px 0px;
+    padding: 10px 0px;
+}
+
+.input-label {
+    margin: 10px 10px 5px 0px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.input-field {
+    margin: 5px 10px 10px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Colours
+#BCCCCD - dusky blue 
+#283442 - dark blue paragraphs
+#32586D - blue whale - accent
+#BD9561 - dune - accent */
