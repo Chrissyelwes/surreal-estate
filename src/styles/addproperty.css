@@ -28,18 +28,16 @@
 }
 
 .input {
-    margin: 20px 10px 20px 0px;
     padding: 10px 0px;
 }
 
 .input-label {
-    margin: 10px 10px 5px 0px;
+    margin: 5px 5px 5px 0px;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
 }
 
 .input-field {
-    margin: 5px 10px 10px 0px;
     font-family: 'Roboto', sans-serif;
 }
 
