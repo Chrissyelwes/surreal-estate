@@ -3,29 +3,28 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { Link } from "react-router-dom";
 import "../styles/navbar.css";
+import Logo from "../assets/surreal-estate_logo2.svg";
 
 const NavBar = () => {
   return (
     <div className="navbar">
-      <img
-        className="logo"
-        src="https://mcrcodes.s3.eu-west-2.amazonaws.com/course/surreal-estate/logo.png"
-        alt="surreal-estate-logo"
-      />
+      <img className="logo" src={Logo} alt="surreal-estate-logo" />
       <ul className="navbar-Links">
         <li className="navbar-links_item">
-          <FontAwesomeIcon
-            className="navbar_icon-house"
-            data-testid="navbar-icon_house"
-            icon={solid("house")}
-          />
+          <Link className="navitem" to="/" alt="link to home navigation">
+            <FontAwesomeIcon
+              className="navbar_icon-house"
+              data-testid="navbar-icon_house"
+              icon={solid("house")}
+            />
+          </Link>
         </li>
-        <li className="navbar-Links-Item">
-          <Link className="navitem" to="/">
+        <li className="navbar-links_item">
+          <Link className="navitem" to="/properties">
             View Properties
           </Link>
         </li>
-        <li className="navbar-Links-Item">
+        <li className="navbar-links_item">
           <Link className="navitem" to="/add-property">
             Add a Property
           </Link>

@@ -1,12 +1,13 @@
 .navbar {
     background-color: white;
-    height: 80px;
-    padding: 10px;
-    
+    height: 50px;
+    padding: 0px;
 }
 
 .logo {
-    height: 60px;
+    margin-top: 5px;
+    align-items: center;
+    height: 45px;
     float: left;
 }
 

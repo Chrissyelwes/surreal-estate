@@ -1,0 +1,9 @@
+.home_header-image {
+    background-image: url("/Users/cc/Projects/front-end/surreal-estate/src/assets/header-image.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100vw;
+    height: 88vh;
+}
