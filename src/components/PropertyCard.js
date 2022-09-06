@@ -1,4 +1,5 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PropTypes from "prop-types";
 
 const PropertyCard = (props) => {
@@ -9,13 +10,18 @@ const PropertyCard = (props) => {
       <div className="property-card_items">
         <div className="property-card_title">{title}</div>
         <div className="property-card_type-city">
-          {type} - {city}
+          <FontAwesomeIcon icon="fa-solid fa-house" />
+          {type}
+          -
+          <FontAwesomeIcon icon="fa-solid fa-building" />
+          {city}
         </div>
         <div className="property-card_bathrooms">{bathrooms}</div>
         <div className="property-card_bedrooms">{bedrooms}</div>
         <div className="property-card_price">£{price}</div>
         <p>
           <a href="mailto:someone@example.com">EMAIL</a>
+          <FontAwesomeIcon icon="fa-solid fa-building" />
         </p>
       </div>
     </div>
