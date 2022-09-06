@@ -42,10 +42,14 @@ const PropertyCard = (props) => {
           {bedrooms}
         </div>
         <div className="property-card_price">£{price}</div>
-        <p>
-          <a href="mailto:someone@example.com">EMAIL</a>
-          <FontAwesomeIcon icon="fa-solid fa-building" />
-        </p>
+        <button
+          type="button"
+          onClick={() => {
+            window.location = "mailto:yourmail@domain.com";
+          }}
+        >
+          EMAIL
+        </button>
       </div>
     </div>
   );
