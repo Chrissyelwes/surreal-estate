@@ -55,7 +55,7 @@ const AddProperty = () => {
   return (
     <div className="container">
       <div className="add-property">
-        <h1>Add Property Page</h1>
+        <h1>Add Your Property</h1>
         <Alert />
         <div className="form">
           <form onSubmit={handleAddProperty}>

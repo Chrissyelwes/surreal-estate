@@ -18,3 +18,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # ROADMAP
 * Add reset button
 * Do own logo
+
+# ATTRIBUTIONS
+* Header image by @ralphkayden / Unsplash

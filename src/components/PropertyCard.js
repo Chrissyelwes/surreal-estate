@@ -45,7 +45,7 @@ const PropertyCard = (props) => {
         <button
           type="button"
           onClick={() => {
-            window.location = "mailto:yourmail@domain.com";
+            window.location = "mailto:info@surrealestate.co.uk";
           }}
         >
           EMAIL
