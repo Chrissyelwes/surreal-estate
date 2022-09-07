@@ -1,3 +1,11 @@
+.home_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
 .home_header-image {
     background-image: url("/Users/cc/Projects/front-end/surreal-estate/src/assets/header-image.jpg");
     background-position: center;
@@ -6,4 +14,22 @@
     overflow: hidden;
     width: 100vw;
     height: 88vh;
+}
+
+.home_section-a, .home_section-b {
+    padding: 20px;
+    margin: 20px;
+}
+
+.home_section-a {
+    margin-top: 70px;
+}
+
+.title {
+    padding: 10px;
+}
+
+.section-a_body {
+    margin-bottom: 30px;
+    max-width: 900px;
 }

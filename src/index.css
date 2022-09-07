@@ -16,8 +16,8 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
-  color: #1E1C1D;
-  background-color: whitesmoke;
+  color: #37322d;
+  background-color: white;
   font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -47,13 +47,53 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   color: #BD9561;
-  font-size: 25px;
+}
+
+.title {
+  font-size: 30px;
 }
 
 a {
   color: #BD9561;
 }
 
+button {
+  margin: 20px 10px 10px 10px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  color: #BD9561;
+  padding: 12px 28px;
+  text-align: center;
+  transition-duration: 0.4s;
+  font-size: 1em;
+}
+
+
+
+.button_type-1 {
+  background-color: #BD9561;
+  color: white;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  border: 2px solid #BD9561;
+}
+
+.button_type-1:hover {
+  border: 2px solid #BD9561;
+  background-color: white;
+  color: #BD9561;
+}
+
+.button_type-2 {
+  border: 2px solid #BD9561;
+  background-color: white;
+  color: #BD9561;
+}
+
+.button_type-2:hover  {
+  background-color: #BD9561;
+  color: white;
+}
 
 /* Colours
 #BCCCCD - dusky blue 

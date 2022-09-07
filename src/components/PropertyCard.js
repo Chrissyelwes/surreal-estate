@@ -43,12 +43,13 @@ const PropertyCard = (props) => {
         </div>
         <div className="property-card_price">£{price}</div>
         <button
+          className="button_type-1"
           type="button"
           onClick={() => {
             window.location = "mailto:info@surrealestate.co.uk";
           }}
         >
-          EMAIL
+          Email
         </button>
       </div>
     </div>

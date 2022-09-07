@@ -16,16 +16,18 @@
     font-size: 1em;
 }
 
+.button:hover  {
+    background-color: #BD9561;
+    color: white;
+}
+
 .form {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
   
-.button:hover  {
-    background-color: #BD9561;
-    color: white;
-}
+
 
 .input {
     padding: 10px 0px;

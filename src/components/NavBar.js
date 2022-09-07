@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { Link } from "react-router-dom";
 import "../styles/navbar.css";
-import Logo from "../assets/surreal-estate_logo2.svg";
+import Logo from "../assets/surreal-estate_logo.svg";
 
 const NavBar = () => {
   return (
@@ -26,7 +26,7 @@ const NavBar = () => {
         </li>
         <li className="navbar-links_item">
           <Link className="navitem" to="/add-property">
-            Add a Property
+            Add Property
           </Link>
         </li>
       </ul>
