@@ -10,6 +10,7 @@ const PropertyCard = (props) => {
   return (
     <div className="property-card_wrapper" data-testid="property-card_wrapper">
       <div className="property-card_items">
+        <div className="property-card_image" />
         <div className="property-card_title">{title}</div>
         <div className="property-card_type-city">
           <div className="type">
@@ -76,6 +77,8 @@ const PropertyCard = (props) => {
       </div>
 
       {/* Mock data */}
+
+      {/* END OF MOCK DATA */}
     </div>
   );
 };

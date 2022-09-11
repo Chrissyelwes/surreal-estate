@@ -8,7 +8,11 @@
 
 .property-card_items {
     margin: 20px;
-    padding: 20px;
+    padding: 10px;
+    width: fit-content;
+    max-width: fit-content;
+    height: 28.125rem;
+    max-height: 28.125rem;
     text-align: center;
     flex: 0 1 30%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -21,13 +25,22 @@
     transform: scale(1.1);
 }
 
+.property-card_image {
+    margin-bottom: 20px;
+    background-image: url("/Users/cc/Projects/front-end/surreal-estate/src/assets/home-image1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 45%;
+}
+
 .property-card_title {
     font-family: 'Merriweather', serif;
-    font-size: 30px;
+    font-size: 25px;
     color: #BD9561;
 }
 
-.property-card_title, .property-card_icon-house, .property-card_icon-building, .property-card_icon-toilet, .property-card_icon-bed{
+.property-card_icon-house, .property-card_icon-building, .property-card_icon-toilet, .property-card_icon-bed{
     padding: 0px 5px 0px 0px;
 }
 
@@ -44,11 +57,12 @@
 }
 
 .button_type-3 {
+    margin: 10px 10px 20px 10px;
     background-color: #BD9561;
     color: white;
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    width: 200px;
+    width: 300px;
     border: 2px solid #BD9561;
 }
 

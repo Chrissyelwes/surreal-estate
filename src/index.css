@@ -58,7 +58,7 @@ a {
 }
 
 button {
-  margin: 20px 10px 10px 10px;
+
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   color: #BD9561;
@@ -71,6 +71,7 @@ button {
 
 
 .button_type-1 {
+  margin: 20px 10px 10px 10px;
   background-color: #BD9561;
   color: white;
   text-align: center;
@@ -85,6 +86,7 @@ button {
 }
 
 .button_type-2 {
+  margin: 20px 10px 10px 10px;
   border: 2px solid #BD9561;
   background-color: white;
   color: #BD9561;
