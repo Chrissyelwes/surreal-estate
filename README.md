@@ -23,4 +23,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * Photo by <a href="https://unsplash.com/@ralphkayden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ralph (Ravi) Kayden</a> on <a href="https://unsplash.com/@ralphkayden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 * Photo by <a href="https://unsplash.com/@fensterschmidinger?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Florian Schmidinger</a> on <a href="https://unsplash.com/s/photos/home?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 * Photo by <a href="https://unsplash.com/@vjvonart?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">VJ Von Art</a> on <a href="https://unsplash.com/s/photos/home?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* Photo by Jonathan Borba: https://www.pexels.com/photo/modern-interior-of-light-living-room-5570223/
+*Photo by thanhhoa tran: https://www.pexels.com/photo/white-pool-loungers-near-tree-1488327/
+* Photo by Max Vakhtbovych: https://www.pexels.com/photo/spacious-contemporary-flat-with-green-plants-and-spiral-stairway-6587854/
   

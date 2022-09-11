@@ -37,7 +37,7 @@ exports[`PropertyCard renders correctly 1`] = `
               fill="currentColor"
             />
           </svg>
-          stub type
+          flat
         </div>
         |
         <div
@@ -109,7 +109,7 @@ exports[`PropertyCard renders correctly 1`] = `
               fill="currentColor"
             />
           </svg>
-          16
+          18
         </div>
       </div>
       <div
