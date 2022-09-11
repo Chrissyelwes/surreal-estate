@@ -20,4 +20,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * Do own logo
 
 # ATTRIBUTIONS
-* Header image by @ralphkayden / Unsplash
+* Photo by <a href="https://unsplash.com/@ralphkayden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ralph (Ravi) Kayden</a> on <a href="https://unsplash.com/@ralphkayden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* Photo by <a href="https://unsplash.com/@fensterschmidinger?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Florian Schmidinger</a> on <a href="https://unsplash.com/s/photos/home?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* Photo by <a href="https://unsplash.com/@vjvonart?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">VJ Von Art</a> on <a href="https://unsplash.com/s/photos/home?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  

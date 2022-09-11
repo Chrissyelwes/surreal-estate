@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`displays a success message 1`] = `
+exports[`Alert displays a success message 1`] = `
 <DocumentFragment>
   <div
     class="alert alert-success"
@@ -10,7 +10,7 @@ exports[`displays a success message 1`] = `
 </DocumentFragment>
 `;
 
-exports[`displays an error message 1`] = `
+exports[`Alert displays an error message 1`] = `
 <DocumentFragment>
   <div
     class="alert alert-error"
@@ -20,7 +20,7 @@ exports[`displays an error message 1`] = `
 </DocumentFragment>
 `;
 
-exports[`does not render an error or a success message if message props is empty 1`] = `
+exports[`Alert does not render an error or a success message if message props is empty 1`] = `
 <DocumentFragment>
   <div
     class="alert alert-error"

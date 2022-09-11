@@ -15,7 +15,11 @@ const Properties = () => {
 
   return (
     <div>
-      <h1>Properties</h1>
+      <div className="properties_header-image" />
+      <h1 className="properties_title">Properties</h1>
+      <h4 className="properties_subtitle">
+        Check out our available properties
+      </h4>
       <PropertyCard
         title={props.title}
         type={props.type}
