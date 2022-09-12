@@ -5,3 +5,19 @@
     border: #BD9561 2px solid;
     /* background-color: #BD9561; */
 }
+
+.side-bar_items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-bar_item {
+padding: 20px;
+}
+
+.side-bar_link {
+    text-decoration: none;
+    font-size: 25px;
+}

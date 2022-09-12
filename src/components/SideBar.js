@@ -7,16 +7,28 @@ const SideBar = () => {
     <div className="side-bar_wrapper">
       <div className="side-bar_items">
         <div className="side-bar_item">
-          <Link classname="side-bar_link" to={`/?query={"city": "Manchester"}`}>
-            Manchester
+          <Link
+            classname="side-bar_link"
+            to={`/properties/?query={"city": "Manchester"}`}
+          >
+            <h1>Manchester</h1>Manchester
           </Link>
-          <Link classname="side-bar_link" to={`/?query={"city": "Leeds"}`}>
+          <Link
+            classname="side-bar_link"
+            to={`/properties/?query={"city": "Leeds"}`}
+          >
             Leeds
           </Link>
-          <Link classname="side-bar_link" to={`/?query={"city": "Sheffield"}`}>
+          <Link
+            classname="side-bar_link"
+            to={`/properties/?query={"city": "Sheffield"}`}
+          >
             Sheffield
           </Link>
-          <Link classname="side-bar_link" to={`/?query={"city": "Liverpool"}`}>
+          <Link
+            classname="side-bar_link"
+            to={`/properties/?query={"city": "Liverpool"}`}
+          >
             Liverpool
           </Link>
         </div>
