@@ -27,7 +27,7 @@ const AddProperty = () => {
     event.preventDefault();
 
     axios
-      .post("http://localhost:3000/api/v1/PropertyListing", fields)
+      .post("https://surreal-api.herokuapp.com/api/v1/PropertyListing", fields)
       .then((response) => {
         // eslint-disable-next-line no-console
         console.log(response);
