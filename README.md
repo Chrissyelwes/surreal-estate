@@ -15,7 +15,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * API Interaction
 * OAuth
 
-# ROADMAP
+# ROADMAP AND MY OWN TWIST
+* UI design
+* Add Homepage
 * Add reset button
 * Do own logo
 

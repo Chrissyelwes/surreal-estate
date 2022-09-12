@@ -1,3 +1,13 @@
+.properties_header-image {
+    background-image: url("/Users/cc/Projects/front-end/surreal-estate/src/assets/home-image2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100vw;
+    height: 30vh;
+}
+
 .properties_title {
     margin-top: 50px;
     text-align: center;
@@ -6,4 +16,15 @@
 .properties_subtitle {
     text-align: center;
 }
+
+.properties {
+    padding: 0.5rem;
+  }
+  
+  .properties > .item {
+    display: inline-block;
+    width: 33.33%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+  }
 
