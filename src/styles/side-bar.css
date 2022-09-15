@@ -1,8 +1,8 @@
 .side-bar_wrapper {
     margin: 20px 0px;
     height: 80px;
-    width: 100vw;
-    border: #BD9561 2px solid;
+    /* width: 60vw; */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     /* background-color: #BD9561; */
 }
 
@@ -18,6 +18,12 @@ padding: 20px;
 }
 
 .side-bar_link {
+    margin: 20px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.side-bar_link:hover {
+    text-decoration: underline;
 }
